@@ -1,7 +1,11 @@
 let subBut = document.querySelector("form");
 subBut.addEventListener("submit", function(event){
                         event.preventDefault();
-                        alert("Click!");
+                        let topText = document.getElementById("top-submit").value;
+                        let botText = document.getElementById("bot-submit").value;
+                        alert(topText);
 })
 
-function makeMeme(top, bot, img){}
+function makeMeme(top, bot, img){
+
+}
