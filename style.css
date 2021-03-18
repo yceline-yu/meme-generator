@@ -1,1 +1,12 @@
+.meme {
+  position: relative
+}
 
+.toptext {
+  position: absolute
+}
+
+.bottomtext {
+  position: absolute
+}
+  
