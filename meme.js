@@ -1,4 +1,5 @@
-let subBut = document.querySelector("button");
-subBut.addEventListener("click", fucntion(){
+let subBut = document.querySelector("form");
+subBut.addEventListener("click", fucntion(event){
+                        event.preventDefault();
                         console.log("Click!");
 })
