@@ -10,19 +10,22 @@
     <div class="form-content">
         <form>
             <p>Image Link<br><br>
-            <input type="url" required name="image">
+            <input type="url" required name="image" id="image-link">
             </p>
         <p>Top Text<br><br>
-            <input name = "top-text">
+            <input name="top-text" id="top-submit">
             </p>
             <p>Bottom Text<br><br>
-                <input name="bottom-text">
+                <input name="bottom-text" id="bottom-submit">
             </p><br><br>
             <button type="submit">Submit</button>
         </form>
+        <script src="meme.js"></script>
     </div>
     <hr>
-    <div class="meme-content">
+    <div id="meme-content">
+        <p id="top-text">Top Text</p>
+        <p id="bottom-text">Bottom Text</p>
     </div>
 </body>
 </html>
