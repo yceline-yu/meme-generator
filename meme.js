@@ -1,6 +1,6 @@
 document.addEventListener("submit", function(event){
     event.preventDefault();
-    meme-content.appendChild(meme);
+    meme-content.appendChild(memes(imgs, top, bot));
 })
 
 
