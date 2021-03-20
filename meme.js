@@ -19,6 +19,7 @@ document.addEventListener("submit", function(event){
     meme.append(img);
     meme.append(botTx);
     
-    return meme;
+    
+    return meme-content.appendChild(meme);
 })
 
