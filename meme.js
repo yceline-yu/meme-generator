@@ -1,23 +1,28 @@
 
 document.addEventListener("submit", function(event){
     event.preventDefault();
-    document.getElementById("memeContent").appendChild(memes(inputs[0].value, inputs[1].value, inputs[2].value));
+    alert("works");
+    document.getElementById("memeContent").appendChild(memes(document.getElementById('image').value, document.getElementById('top-text').value, document.getElementById('bottom-text').value));
 })
 
 
-function memes(url, toT, boT){
+function memes(link, toT, boT){
     let memeDiv = document.createElement("div");
+        memeDiv.className = "wholeMeme";
+    
     let topTx = document.createElement("div");
+        topTx.className = "topText";
+        topTx.innerHTML = toT;
+    
     let botTx = document.createElement("div");
+        botTx.className = "botText";
+        botTx.innerHTML = boT;
+    
     let img = document.createElement('img');
+        img.src = link;
     
-    memeDiv.className = "wholeMeme";
-    topTx.className = "topText";
-    botTx.className = "botText";
-    
-    img.src = url;
-    topTx.innerHTML = toT;
-    botTx.innerHTML = boT;
+
+
     
     memeDiv.append(topTx);
     memeDiv.append(img);
