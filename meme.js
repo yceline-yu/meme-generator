@@ -11,6 +11,10 @@ function memes(url, toT, boT){
     let botTx = document.createElement("div");
     let img = document.createElement('img');
     
+    memeDiv.className = "wholeMeme";
+    topTx.className = "topText";
+    botTx.className = "botText";
+    
     img.src = url;
     topTx.innerHTML = toT;
     botTx.innerHTML = boT;
