@@ -11,9 +11,9 @@ function memes(url, toT, boT){
     let botTx = document.createElement("div");
     let img = document.createElement('img');
     
-    let img.src = url;
-    let topTx.innerHTML = toT;
-    let botTx.innerHTML = boT;
+    img.src = url;
+    topTx.innerHTML = toT;
+    botTx.innerHTML = boT;
     
     memeDiv.append(topTx);
     memeDiv.append(img);
