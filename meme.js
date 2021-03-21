@@ -5,7 +5,7 @@ document.addEventListener("submit", function(event){
     let top = inputs[1].value;
     let bot = inputs[2].value;
     let imgs = inputs[0].value;
-    memeContent.appendChild(memes(imgs, top, bot));
+    memeContent.append(memes(imgs, top, bot));
 })
 
 
