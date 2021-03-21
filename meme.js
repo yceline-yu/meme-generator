@@ -21,9 +21,20 @@ function memes(link, toT, boT){
     let img = document.createElement('img');
         img.src = link;
 
+    let butt = document.createElement("button")
+        butt.innerText = "x";
+        butt.className = "butts";
+        butt.addEventListener("click", function(event){
+            topTx.remove();
+            botTx.remove();
+            img.remove();
+            butt.remove();
+        })
+
     memeDiv.append(topTx);
     memeDiv.append(img);
     memeDiv.append(botTx);
+    memeDiv.append(butt);
         
     return memeDiv
     }
