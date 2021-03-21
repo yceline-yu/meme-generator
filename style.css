@@ -1,7 +1,12 @@
+input {
+width:70%;
+}
+
 .wholeMeme {
   display:flex;
   flex-direction: column;
   position: relative;
+  margin: 1%;
 }
 
 .topText {
