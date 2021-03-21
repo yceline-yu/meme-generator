@@ -9,15 +9,15 @@ document.addEventListener("submit", function(event){
 })
 
 
-function memes(imgs, top, bot){
+function memes(url, toT, boT){
     let memeDiv = document.createElement("div");
     let topTx = document.createElement("div");
     let botTx = document.createElement("div");
     let img = document.createElement('img');
     
-    let img.src = imgs;
-    let topTx.innerHTML = top;
-    let botTx.innerHTML = bot;
+    let img.src = url;
+    let topTx.innerHTML = toT;
+    let botTx.innerHTML = boT;
     
     memeDiv.append(topTx);
     memeDiv.append(img);
