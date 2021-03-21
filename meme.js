@@ -1,7 +1,6 @@
 
 document.addEventListener("submit", function(event){
     event.preventDefault();
-    alert("works");
     document.getElementById("memeContent").appendChild(memes(document.getElementById('image').value, document.getElementById('top-text').value, document.getElementById('bottom-text').value));
 })
 
