@@ -8,6 +8,7 @@ document.addEventListener("submit", function(event){
 function memes(link, toT, boT){
     let memeDiv = document.createElement("div");
         memeDiv.className = "wholeMeme";
+        memeDiv.id = "meme1"
     
     let topTx = document.createElement("div");
         topTx.className = "topText";
@@ -19,17 +20,10 @@ function memes(link, toT, boT){
     
     let img = document.createElement('img');
         img.src = link;
-    
 
-
-    
     memeDiv.append(topTx);
     memeDiv.append(img);
     memeDiv.append(botTx);
-    
-    document.addEventListener("click",function(event){
-        let mD = document.querySelector(".wholeDiv")
-        event.target.remove(mD);
         
     return memeDiv
     }
