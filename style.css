@@ -7,14 +7,22 @@
 .topText {
 position: absolute;
 color: white;
-left: 120px;
+width: 100%;
+text-align: center;
+text-transform: uppercase;
+font: small-caps bold 40px/1 sans-serif;
+-webkit-text-stroke: 1px black;
 }
 
 .botText {
 position: absolute;
 bottom: 0px;
 color: white;
-left: 120px;
+width: 100%;
+text-align: center;
+text-transform: uppercase;
+font: small-caps bold 40px/1 sans-serif;
+-webkit-text-stroke: 1px black;
 }
   
 #memeContent {
