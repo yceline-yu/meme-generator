@@ -1,11 +1,7 @@
 
 document.addEventListener("submit", function(event){
     event.preventDefault();
-    let inputs = document.getElementById("initial-form").elements;
-    let top = inputs[1].value;
-    let bot = inputs[2].value;
-    let imgs = inputs[0].value;
-    memeContent.append(memes(imgs, top, bot));
+    memeContent.appendChild(memes(inputs[0].value, inputs[1].value, inputs[2].value));
 })
 
 
