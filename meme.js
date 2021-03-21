@@ -27,6 +27,10 @@ function memes(link, toT, boT){
     memeDiv.append(img);
     memeDiv.append(botTx);
     
+    document.addEventListener("click",function(event){
+        let mD = document.querySelector(".wholeDiv")
+        event.target.remove(mD);
+        
     return memeDiv
     }
 
