@@ -3,10 +3,15 @@
 }
 
 .topText {
-  position: absolute
+position: absolute;
+color: white;
+left: 120px;
 }
 
 .botText {
-  position: absolute
+position: absolute;
+bottom: 0px;
+color: white;
+left: 120px;
 }
   
